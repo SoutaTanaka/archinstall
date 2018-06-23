@@ -46,14 +46,14 @@ git clone https://github.com/SoutaTanaka/archinstall
 
 
 
-rm $HOME/.config/i3/config
-ln -sf i3config $HOME/.config/i3/config
-rm $HOME/.vimrc
-ln -sf vimrc $HOME/.vimrc
-rm $HOME/.zshrc
-ln -sf zshrc $HOME/.zshrc
-rm $HOME/.Xdefaults
-ln -sf Xdefaults $HOME/.Xdefaults
+rm /home/sota/.config/i3/config
+ln -sf /home/sota/Archinstall/i3config /home/sota/.config/i3/config
+rm /home/sota/.vimrc
+ln -sf /home/sota/Archinstall/vimrc /home/sota/.vimrc
+rm /home/sota/.zshrc
+ln -sf /home/sota/Archinstall/zshrc /home/sota/.zshrc
+rm /home/sota/.Xdefaults
+ln -sf /home/sota/Archinstall/Xdefaults /home/sota/.Xdefaults
 
 exit
 
